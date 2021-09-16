@@ -1,0 +1,23 @@
+{
+	"apiVersion": 2,
+	"name": "wcus/mvp-block",
+	"version": "0.1.0",
+	"title": "WordCamp US MVP Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"attributes": {
+        "content": {
+            "type": "string",
+            "source": "html",
+            "selector": "p"
+        }
+    },
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mvp-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
